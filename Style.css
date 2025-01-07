@@ -22,6 +22,7 @@
   
   .h4,
   h4 {
+      background-color: Darkred;
     font-size: calc(10px + .4vw);
   }
   
