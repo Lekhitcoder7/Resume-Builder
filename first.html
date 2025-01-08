@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,7 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="Style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -32,11 +31,13 @@
 
               <div class="form-group">
                 <label for="nameField">Your Name</label>
+                <span class="required">*</span>
                 <input type="text" id="nameField" placeholder="Enter here" class="form-control" />
               </div>
 
               <div class="form-group mt-2">
                 <label for="jobFiled">Your Job title </label>
+                <span class="required">*</span>
                 <input type="text" id="jobFiled" placeholder="Enter here" class="form-control" />
               </div>
 
@@ -47,6 +48,7 @@
 
               <div class="form-group mt-2">
                 <label for="gmailFiled">Your gmail</label>
+                <span class="required">*</span>
                 <input id="gmailFiled" placeholder="Enter here" class="form-control"></input>
               </div>
 
@@ -55,7 +57,7 @@
                 <input id="imgField" type="file" class="form-control" />
               </div>
 
-              <p class="text-secondary my-3">Important Links</p>
+             
               <div class="form-group mt-2" id="li">
                 <div class="form-group mt-2">
                   <label for="fbField">Address </label>
@@ -95,7 +97,7 @@
 
               <h3>Professional Information</h3>
               <div class="form-group mt-2">
-                <label for="">Objective</label>
+                <label for="">About</label>
                 <textarea id="objectiveField" rows="5" placeholder="Enter here" class="form-control"></textarea>
               </div>
 
@@ -105,8 +107,8 @@
                                   <label for="">Title</label>
                                   <input placeholder="Enter here" class="form-control tiField"></input>
                               </div> -->
-                <div class="form-group mt-2">
-                  <label for=""> Your Experience </label>
+                <!--<div class="form-group mt-2">-->
+                 
                   <textarea placeholder="Enter Experience" class="form-control weField" rows="3"></textarea>
                 </div>
                 <!-- new textarea -->
@@ -119,7 +121,7 @@
               </div>
 
               <div class="form-group mt-2" id="sk">
-                <label for="">PROFESSINAL SKILLS</label>
+                <label for="">Professional Skills</label>
                 <input placeholder="Enter here" class="form-control skField" rows="3"></input>
 
                 <div class="container text-center mt-2" id="skAddButton">
@@ -167,6 +169,10 @@
         <div class="info">
           <h3 class="title">Contact info</h3>
           <ul>
+            <li>
+              <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+              <span id="cContact">Phone</p>
+            </li>
             <li>
               <span class=" icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
               <span id="gGmail">Gmail</span>
