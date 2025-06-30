@@ -69,6 +69,7 @@ function addNewAQField() {
 
 //generating cv
 function generateCV() {
+  console.log("Generate CV clicked");
   document.getElementById("nName").innerHTML =
     document.getElementById("nameField").value;
 
